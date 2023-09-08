@@ -16,7 +16,7 @@
 }
 
 body{
-    background-color: #f1f6fc31;
+    background-color: #FFFFF0;
 }
 section, 
 footer {
@@ -106,8 +106,8 @@ nav ul a:hover::after{
 
 .banner .banner-text p{
     font-size: 20px;
-    color: #ffffffc7;
-    font-weight: lighter;
+    color: white;
+    font-weight: bold;
     margin: 18px 0;
 }
 
@@ -126,7 +126,7 @@ nav ul a:hover::after{
     font-size: 56px
 }
 
-.historia-florenca .historia-florenca-text p{
+.historia-florenca .historia-florenca p{
     margin: 5px 0px 10px 0px;
 }
 
@@ -136,6 +136,42 @@ nav ul a:hover::after{
 
 .historia-florenca-img img{
     width: 100%;
+}
+/*Experiencias cards*/
+.experimente-home h3{
+    text-align: center;
+}
+
+.experimente-home .container > p{
+    text-align: center;
+
+}
+
+.experimente-home .cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.experimente-home .card-item img{
+    width: 50px;
+    background-color: #FF7F50;
+    border-radius: 14px;
+    padding: 9px;
+}
+
+.experimente-home .card-item{
+    background-color: #FFEBCD;
+    width: 350px;
+    padding: 20px;
+    border-radius: 14px;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.experimente-home .card-item:hover{
+    background-color: #FF7F50;
 }
 
 /*Footer*/
@@ -157,4 +193,127 @@ nav ul a:hover::after{
 .footer p{
     margin-top: 10px;
     color: white;
+}
+
+/*Style pagina 1*/
+.pontosT .container{
+    display: flex;
+    align-items: center;
+}
+
+.pontosT .pontosT-text{
+    width: 50%;
+    padding: 0 40px;
+}
+
+.pontosT .pontosT-text h3{
+    font-size: 56px
+}
+
+.pontosT .pontosT-text p{
+    margin: 5px 0px 10px 0px;
+}
+
+.pontosT .pontosT-img{
+    width: 50%;
+}
+
+.pontosT-img img{
+    width: 100%;
+}
+
+/*Style página 2*/
+.culinaria .container{
+    display: flex;
+    align-items: center;
+}
+
+.culinaria .culinaria-text{
+    width: 50%;
+    padding: 0 40px;
+}
+
+.culinaria .culinaria-text h3{
+    font-size: 56px
+}
+
+.culinaria .culinaria-text p{
+    margin: 5px 0px 10px 0px;
+}
+
+.culinaria .culinaria-img{
+    width: 50%;
+}
+
+.culinaria-img img{
+    width: 100%;
+}
+
+/*style pagina 2 -restaurantes*/
+.restaurantes h3{
+    text-align: center;
+}
+
+.restaurantes p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cards-r{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.restaurantes .cards-r-item{
+    background-color: #FFEBCD;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+    transition: 0.3s;
+}
+
+.restaurantes .cards-r-item img{
+    border-radius: 30% ;
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+}
+
+.restaurantes .cards-r-item .nome-r{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.restaurantes .cards-r-item .depoimentos{
+    font-size: 15px;
+    padding: 0 15px;
+    transition: 0.3s;
+}
+
+.restaurantes .cards-r-item .star{
+    margin: 15px 0;
+    border-top: 2px solid #71767a23;
+}
+
+.restaurantes .cards-r-item .star i{
+    color: #FF7F50;
+    margin-top: 15px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.restaurantes .cards-r-item:hover{
+    background-color: #FF7F50;
+    margin-top: -5px;
+}
+
+.restaurantes .cards-r-item:hover .nome-r,
+.restaurantes .cards-r-item:hover .depoimentos,
+.restaurantes .cards-r-item:hover .star i{
+    color: white;
+
 }
