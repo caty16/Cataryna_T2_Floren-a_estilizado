@@ -249,12 +249,12 @@ nav ul a:hover::after{
     width: 100%;
 }
 
-/*style pagina 2 -restaurantes*/
-.restaurantes h3{
+/*style card hoteis e restaurantes*/
+.cards-g h3{
     text-align: center;
 }
 
-.restaurantes p{
+.cards-g p{
     margin-bottom: 20px;
     text-align: center;
 }
@@ -265,7 +265,7 @@ nav ul a:hover::after{
     flex-wrap: wrap;
 }
 
-.restaurantes .cards-r-item{
+.cards-g .cards-r-item{
     background-color: #FFEBCD;
     margin: 15px;
     border-radius: 14px;
@@ -274,46 +274,46 @@ nav ul a:hover::after{
     transition: 0.3s;
 }
 
-.restaurantes .cards-r-item img{
+.cards-g .cards-r-item img{
     border-radius: 30% ;
     width: 300px;
     display: block;
     margin: 10px auto;
 }
 
-.restaurantes .cards-r-item .nome-r{
+.cards-g .cards-r-item .nome-r{
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 15px;
     transition: 0.3s;
 }
 
-.restaurantes .cards-r-item .depoimentos{
+.cards-g .cards-r-item .depoimentos{
     font-size: 15px;
     padding: 0 15px;
     transition: 0.3s;
 }
 
-.restaurantes .cards-r-item .star{
+.cards-g .cards-r-item .star{
     margin: 15px 0;
     border-top: 2px solid #71767a23;
 }
 
-.restaurantes .cards-r-item .star i{
+.cards-g .cards-r-item .star i{
     color: #FF7F50;
     margin-top: 15px;
     font-size: 20px;
     transition: 0.3s;
 }
 
-.restaurantes .cards-r-item:hover{
+.cards-g .cards-r-item:hover{
     background-color: #FF7F50;
     margin-top: -5px;
 }
 
-.restaurantes .cards-r-item:hover .nome-r,
-.restaurantes .cards-r-item:hover .depoimentos,
-.restaurantes .cards-r-item:hover .star i{
+.cards-g .cards-r-item:hover .nome-r,
+.cards-g .cards-r-item:hover .depoimentos,
+.cards-g .cards-r-item:hover .star i{
     color: white;
 
 }
