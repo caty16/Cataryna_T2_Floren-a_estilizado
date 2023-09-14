@@ -14,6 +14,22 @@
     font-family: 'Inter', sans-serif;
 
 }
+.back-header{
+    background-image: url('../img/foto_de_fundo.png');
+    height: 100vh;
+}
+.back-header-pag1{
+    background-image: url('../img/pontos_turisticos_fundo.png');
+    height: 100vh;
+}
+.back-header-pag2{
+    background-image: url('../img/culinaria_fundo.png');
+    height: 100vh;
+}
+.back-header-pag3{
+    background-image: url('../img/hotel_fundo.jpg');
+    height: 100vh;
+}
 
 body{
     background-color: #FFFFF0;
